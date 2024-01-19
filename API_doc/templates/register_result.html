@@ -1,0 +1,18 @@
+<!-- register_result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Result</title>
+</head>
+<body>
+    <h2>{{ message }}</h2>
+    {% if success %}
+        <form action="/" method="get">
+            <button type="submit">Вернуться в корень</button>
+        </form>
+    {% endif %}
+</body>
+</html>

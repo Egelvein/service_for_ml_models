@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Form</title>
+</head>
+<body>
+    <h2>Predict Form</h2>
+    <form action="/predict" method="post">
+        <label for="temperature">Temperature:</label>
+        <input type="text" id="temperature" name="temperature" required><br>
+
+        <label for="humidity">Humidity:</label>
+        <input type="text" id="humidity" name="humidity" required><br>
+
+        <label for="CO2CosIRValue">CO2CosIRValue:</label>
+        <input type="text" id="CO2CosIRValue" name="CO2CosIRValue" required><br>
+
+        <label for="CO2MG811Value">CO2MG811Value:</label>
+        <input type="text" id="CO2MG811Value" name="CO2MG811Value" required><br>
+
+        <label for="COValue">COValue:</label>
+        <input type="text" id="COValue" name="COValue" required><br>
+
+        <label for="MOX_average">MOX_average:</label>
+        <input type="text" id="MOX_average" name="MOX_average" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+

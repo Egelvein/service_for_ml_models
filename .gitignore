@@ -1,0 +1,20 @@
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.onnx
+*.bin
+*.tar
+*.zip
+
+# Catalogs #
+############
+/Practice-ML-DEV
+/catboost_info
+
+
+# Files #
+#########

@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Экспортированная база данных: db_ml_serv</title>
+    <style type="text/css">
+        table
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        
+        table tr
+        {
+            background-color: white;
+        }
+        
+        table tr.header
+        {
+            background-color: #DDDDDD;
+        }
+        
+        table tr.title
+        {
+            background-color: #EEEEEE;
+        }
+        
+        table tr td
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.null
+        {
+            color: #999999;
+            text-align: center;
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.separator
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+        }
+        
+        table tr td.rownum
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+            text-align: right;
+        }
+        
+    </style>
+    <body>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Таблица: Models</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>model_id</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>model_name</b><br/>TEXT
+                </td>
+                <td>
+                    <b>price</b><br/>INTEGER
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Таблица: Predictions</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>prediction_id</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>predict</b><br/>REAL
+                </td>
+                <td>
+                    <b>model_id</b><br/>INTEGER
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Таблица: Users</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>user_id</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>username</b><br/>TEXT
+                </td>
+                <td>
+                    <b>password</b><br/>TEXT
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="4" align="center">Таблица: UsersHistory</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>user_ask_id</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>prediction_id</b><br/>без типа
+                </td>
+                <td>
+                    <b>user_id</b><br/>без типа
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <i>Документ сгенерирован с помощью SQLiteStudio v3.4.4 в чт янв. 18 00:54:30 2024</i>
+    </body>
+</html>

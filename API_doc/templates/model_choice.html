@@ -1,0 +1,24 @@
+<!-- model_choice.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Выбор модели</title>
+</head>
+<body>
+    <h2>Выберите модель машинного обучения</h2>
+    <form action="/make_choice" method="post">
+        <label>
+            <input type="radio" name="model" value="logreg">
+            Logistic regression
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="model" value="ranfor">
+            Random forest
+        </label>
+        <br>
+        <input type="submit" value="Продолжить">
+    </form>
+</body>
+</html>

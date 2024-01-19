@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Site</title>
+</head>
+<body>
+
+<h1>Welcome in my app</h1>
+
+<div>
+    <button onclick="navigateTo('/users/me/')">User Profile</button>
+    <button onclick="navigateTo('/users/me/items/')">My Items</button>
+    <button onclick="navigateTo('/login')">Login</button>
+    <button onclick="navigateTo('/register')">Register</button>
+    <button onclick="navigateTo('/models')">Models</button>
+    <button onclick="navigateTo('/model_choice')">Model Choice</button>
+    <button onclick="navigateTo('/predict')">Predict</button>
+</div>
+
+<script>
+    function navigateTo(url) {
+        window.location.href = url;
+    }
+</script>
+
+</body>
+</html>
